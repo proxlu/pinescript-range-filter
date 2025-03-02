@@ -1,5 +1,5 @@
 # pinescript-range-filter
-Estratégia com notificação, possibilitando integrar webhook, para porexemplo, mandar pro whatsapp.
+Estratégia para o tradingview com notificação, possibilitando integrar webhook, para porexemplo, mandar pro whatsapp.
 ```
 // This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
 
