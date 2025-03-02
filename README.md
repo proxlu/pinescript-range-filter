@@ -102,7 +102,7 @@ barcolor(use_barcolor ? bar_color : na)
 plotshape(longCondition, title = "Buy Signal", text ="BUY", textcolor = color.white, style=shape.labelup, size = size.normal, location=location.belowbar, color = color.new(color.green, 0))
 plotshape(shortCondition, title = "Sell Signal", text ="SELL", textcolor = color.white, style=shape.labeldown, size = size.normal, location=location.abovebar, color = color.new(color.red, 0))
 
-//Alerts
+//Alerts // by:proxlu
 alertcondition(longCondition, title="Buy Alert", message='{"action": "BUY", "symbol": "{{ticker}}", "price": "{{close}}", "time": "{{time}}"}')
 alertcondition(shortCondition, title="Sell Alert", message='{"action": "SELL", "symbol": "{{ticker}}", "price": "{{close}}", "time": "{{time}}"}')
 ```
